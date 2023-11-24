@@ -1,0 +1,36 @@
+students = {
+    '01': {
+        'Name': 'Abhinav Kumar',
+        'Section': 'A',
+        'Semester': 3
+    },
+    '02': {
+        'Name': 'Abhinav Singh',
+        'Section': 'A',
+        'Semester': 3
+    },
+    '03': {
+        'Name': 'Ramesh Kumar',
+        'Section': 'B',
+        'Semester': 3
+    },
+    '04': {
+        'Name': 'Raman Kumar Singh',
+        'Section': 'B',
+        'Semester': 3
+    },
+    '05': {
+        'Name': 'Rajesh',
+        'Section': 'C',
+        'Semester': 5
+    },
+    '06': {
+        'Name': 'Zainul',
+        'Section': 'B',
+        'Semester': 5
+    }
+}
+print("Details for Roll 03:")
+print("Name:", students['03']['Name'])
+print("Section:", students['03']['Section'])
+print("Semester:", students['03']['Semester'])
