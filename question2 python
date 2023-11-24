@@ -1,0 +1,13 @@
+def convert_numbers_to_words(text):
+    number_words = {
+        '0': 'zero', '1': 'one', '2': 'two', '3': 'three', '4': 'four',
+        '5': 'five', '6': 'six', '7': 'seven', '8': 'eight', '9': 'nine'
+    }
+ converted_text = ''.join(number_words.get(char, char) for char in text)
+     return converted_text
+with open('f2.txt', 'r') as file:
+     content = file.read()
+converted_content = convert_numbers_to_words(content)
+with open('f2.txt', 'w') as file:
+    file.write(converted_content)
+print(converted_content)
